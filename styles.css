@@ -1,0 +1,46 @@
+body {
+    margin: 20px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/*字体家族：Verdana, Geneva, Tahoma, sans-serif */
+.img{
+    width: 250px;
+}
+.card{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    background: #ddebf8;
+    color:#2b2839;
+    border-bottom: 6px solid #d8cefe;
+}
+/*边距简写：
+上下左右距离一样：margin:10px;
+上下左右距离不一样（顺序想象成是时钟转动）：margin: 10px(top)  20px(right)  30px(bottom)  40px(left);
+margin:10px  auto;  上下距离10px，左右自动
+*/
+
+
+
+/*display: flex; 是给父元素设置的，控制它【直接子元素】的排列；它管不到孙子元素、更深层的后代。通过<div>控制布局
+space-between`：首尾贴边，空白只放在元素中间
+space-around`：元素四周都有空白，两边空白更小
+space-evenly`：所有空隙（包括首尾）大小完全相等
+center`：所有元素都在中间，首尾空白相等
+start`：所有元素都在左边，首尾空白不相等
+end`：所有元素都在右边，首尾空白不相等
+*/
+
+/*Utility class（工具类 / 原子类）只负责一条 CSS 属性的 class
+下面是创建一个斜体类
+*/
+.italic {
+    font-style: italic;
+}
+.border-blue{
+    border:1px dotted blue;
+}

@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="card italic ">
+            <!-- 
+            `alt` 是图片的替代文本，给屏幕阅读器（视障用户）读图片内容，是无障碍规范。
+            屏幕阅读器本身就知道这是图片，不用重复说 “这是一张图”不要写 `image of / picture of` 这类词
+            保持简洁，文字**小于 125 个字符,太长的 alt 文字，很多读屏工具会截断，抓重点描述就行
+            -->
+            <img src="./images/zzy.png" 
+                 alt = "zzy smiling"  
+                 class="img border-blue"/>
+            <!--./从当前文件所在的文件夹开始（同级目录），../往上跳一层，去当前文件的上一级文件夹，/从项目根目录（网站根）开始，绝对路径-->
+            <div>
+                <h3>zzy</h3>
+                <p>idol</p>
+                <h4>China, chongqing</h4>
+            </div>
+        </div>
+    </body>
+</html>
